@@ -8,7 +8,7 @@ Answer : The List component renders a list of items and allows selecting a singl
 It takes an array of items through props and each item has a text property that represents the text to display in the list. <br/>
 And the component maps over the items array and renders a SingleListItem component for each item. 
 The SingleListItem component displays the text and applies a green background color to selected item or red if not selected. <br/>
-The component tracks the selected index using the useState hook and clears the selected index whenever the items prop changes using the useEffect hook. <br/>
+The list component tracks the selected index using the useState hook and clears the selected index whenever the items prop changes using the useEffect hook. <br/>
 Finally, React memo function is used to optimize the rendering of the component by avoiding unecessary re renders.
 
 ### Question 2 : What problems / warnings are there with code?
